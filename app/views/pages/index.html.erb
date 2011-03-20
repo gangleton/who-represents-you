@@ -1,0 +1,10 @@
+<h1>Better know your congressperson!</h1>
+
+<%= form_for :user, @user, :url => users_path, :html => {:class => "nifty_form"} do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :location %>
+  <%= f.text_field :location %>
+  <%= submit_tag "Who represents me?" %>
+<% end %>
+

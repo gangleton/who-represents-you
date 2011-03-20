@@ -39,5 +39,5 @@ group :development, :test do
   gem 'shoulda'
 
   gem 'vcr'
-  gem 'webmock'
+  #gem 'webmock'
 end
